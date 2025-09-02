@@ -1,0 +1,23 @@
+.innerContainer{
+  display: flex;
+  flex: 1;
+  padding:5px;
+  margin: 5px;
+  /* background-color: aqua; */
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .innerContainer {
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .innerContainer {
+        padding: 5px;
+        margin: 5px;
+    }
+}

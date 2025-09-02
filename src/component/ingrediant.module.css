@@ -1,0 +1,45 @@
+.ingrdbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+}
+
+.ingreditem {
+   width: 100px;
+  height: 130px;
+  background: #424242;
+  border-radius: 12px;
+   box-shadow: 0 2px 8px rgba(14, 149, 207, 0.751); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 10px 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px; 
+   
+}
+
+.ingred {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  display: block;
+  margin: 0 auto 10px auto; /* Center horizontally and add space below */
+}
+
+.ingredName {
+  text-align: center;
+  font-size: 14px;
+  color: #020202;
+  word-break: break-word;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
